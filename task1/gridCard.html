@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <style>
+      body {
+        background-color: black;
+        height: 100dvh;
+        width: 100dvw;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 300px;
+        justify-content: center;
+        align-content: center;
+      }
+      .card {
+        background-color: cornsilk;
+        display: flex;
+        border-radius: 5px;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+      }
+      .part1 {
+        height: 50%;
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .part2 {
+        height: 50%;
+        width: 100%;
+      }
+      button {
+        width: 100%;
+        background-color: fuchsia;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="part1">
+        <img
+          src="https://images.pexels.com/photos/18937872/pexels-photo-18937872/free-photo-of-residential-building-in-city.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+          alt="Placeholder 6"
+        />
+      </div>
+      <div class="part2">
+        <p>
+          Explore the beauty of urban architecture in this stunning cityscape.
+          Discover modern buildings that stand tall against the skyline.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+  </body>
+</html>
